@@ -73,6 +73,18 @@
   }
 
   /* ----------------------------------------------------------------------
+     PRESS CREDIT LINK - names the store page once config.steamUrl is set.
+     Before then it points at the site, because there is no store page to
+     send a journalist to. The HTML already carries the pre-launch wording,
+     so the line reads correctly with JavaScript off and only ever changes
+     when a real URL exists.
+     ---------------------------------------------------------------------- */
+  var credit = document.getElementById("creditLink");
+  if (credit && CFG.steamUrl) {
+    credit.textContent = "Link back to the Steam page or pourhousegame.com.";
+  }
+
+  /* ----------------------------------------------------------------------
      STICKY NAV - drops in once the hero is mostly scrolled past
      ---------------------------------------------------------------------- */
   var nav = document.getElementById("nav");
