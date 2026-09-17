@@ -17,10 +17,10 @@ window.POURHOUSE = {
      ...and every button turns gold and live automatically. Nothing else
      needs to change.
      ---------------------------------------------------------------------- */
-  steamUrl: null,
+  steamUrl: "https://store.steampowered.com/app/5223160/",
 
   /* Shown under the hero. Keep it vague until a date is locked. */
-  releaseWindow: "Coming soon to Steam",
+  releaseWindow: "Coming to Steam April 2027",
 
 
   /* ----------------------------------------------------------------------
@@ -39,7 +39,7 @@ window.POURHOUSE = {
      actually keeps junk off the list: an address that never confirms never
      subscribes. Enable Kit's spam protection as well.
      ---------------------------------------------------------------------- */
-  kitFormAction: null,
+  kitFormAction: "https://app.kit.com/forms/9931596/subscriptions",
 
 
   /* ----------------------------------------------------------------------
@@ -56,7 +56,7 @@ window.POURHOUSE = {
   },
 
   /* Press / business contact. Shown on the press page. */
-  contactEmail: null,
+  contactEmail: "bruno@pourhousegame.com",
 
 
   /* ----------------------------------------------------------------------

@@ -15,7 +15,7 @@ Nothing else needs touching.
 | Setting | What it does |
 |---|---|
 | `steamUrl` | While this is `null`, every wishlist button reads "Get on the list" and sends people to the mailing list instead. Paste the real store URL and every button becomes a live gold Steam link on its own. |
-| `releaseWindow` | The small line under the hero. Currently "Coming soon to Steam". |
+| `releaseWindow` | The small line under the hero. Currently "Coming to Steam April 2027". |
 | `kitFormAction` | The Kit (ConvertKit) form endpoint. Until it is set, the signup form says "Signups open soon" rather than failing silently. |
 | `links` | Discord, X, YouTube, Twitch, itch. Any left as `null` is left out of the footer, so a dead link can never ship. |
 | `contactEmail` | Press contact on the press page. Hidden until set. |
