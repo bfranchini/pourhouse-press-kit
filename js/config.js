@@ -49,7 +49,7 @@ window.POURHOUSE = {
   links: {
     discord: null,
     twitter: null,
-    youtube: null,
+    youtube: "https://www.youtube.com/@GameDevBruno",
     twitch:  null,
     itch:    null,
     press:   "press.html"
@@ -66,8 +66,8 @@ window.POURHOUSE = {
      in src. Until then the section shows a styled "in production" frame.
      ---------------------------------------------------------------------- */
   trailer: {
-    type: null,       /* "file" | "youtube" | null */
-    src:  null,       /* "assets/video/pourhouse-teaser.mp4"  or  "dQw4w9WgXcQ" */
+    type: "youtube",       /* "file" | "youtube" | null */
+    src: "IGyuYeyjNZg",       /* "assets/video/pourhouse-teaser.mp4"  or  "dQw4w9WgXcQ" */
     poster: "assets/img/screens/rush.webp"
   }
 };
